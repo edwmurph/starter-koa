@@ -7,15 +7,16 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@koa/router": "10.0.0",
-    "http-errors": "1.8.0",
-    "koa": "2.13.1"
+    "@koa/router": "10.1.1",
+    "http-errors": "2.0.0",
+    "koa": "2.13.4"
   },
   "devDependencies": {
-    "@edwmurph/eslint-config": "1.0.0"
+    "@edwmurph/eslint-config": "2.0.0"
   },
   "repository": {
     "type": "git",
